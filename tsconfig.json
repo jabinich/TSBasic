@@ -21,7 +21,8 @@
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+    "strictPropertyInitialization": false //um die Eingeschaften der Klasse nicht zu zwingen zuzuweisen
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

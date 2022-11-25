@@ -6,6 +6,7 @@ import { environment } from './environments/environment';
 import './demo';
 import './flight-demo';
 import './person-demo';
+import './address-demo';
 
 if (environment.production) {
   enableProdMode();

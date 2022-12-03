@@ -7,6 +7,7 @@ import './demo';
 import './flight-demo';
 import './person-demo';
 import './address-demo';
+import './invoice-demo';
 
 if (environment.production) {
   enableProdMode();

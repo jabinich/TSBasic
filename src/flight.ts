@@ -39,6 +39,10 @@ export class CharteFlight implements Flight{
     date: string;
     distance: number;
 
+    constructor(id: number){
+        this.id = id;
+    }
+
     calcPrice(){
         return this.distance / 2;
     }

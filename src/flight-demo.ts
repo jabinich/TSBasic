@@ -7,7 +7,7 @@ if (f.calcPrice){
     console.debug('Preis', f.calcPrice());
 }
 
-f = new CharteFlight();
+f = new CharteFlight(1);
 f.distance = 1000;
 if (f.calcPrice){
     console.debug('Preis', f.calcPrice());
